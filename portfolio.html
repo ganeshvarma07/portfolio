@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio website</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/82db4d405c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="heading"><Span>G</Span>anesh.</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi ,I am <span>Ganesh</span></h1>
+                <h1>I am from India.
+                </h1>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="https://res.cloudinary.com/dw8unnqdd/image/upload/v1700389557/sfsd-PhotoRoom_1_2_cqzhwo.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>
+                            I am Ganesh from India.<br>Completed my Btech in the stream of Mechanical Engineering.<br>
+                            Eager to learn new technologies
+
+                            <br> I believe I am a very ambitious person who loves to work on making the website work well. <br>Working on the web is my passion as I love to work on exciting projects..<br>
+                            Web with me...
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+
+                                <li>
+                                    <span>Web Development</span><br> creating website
+                                </li>
+                                <li>
+                                    <span>React Js</span><br> build interactive elements on websites
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>2023</span>
+                                </li>
+                                <li>
+                                    Web Development intern at Prodigy InfoTech
+
+                                </li>
+                                <li>
+                                    Web Development intern at Oasis Infobyte
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>2016-2020(B.tech)</span><br> Kamala Institute Of Technology and Science
+                                </li>
+                                <li>
+                                    <span>2014-2016(11th-12th)</span><br>Sri Kakatiya Junior college
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="services">
+            <div class="container">
+                <h1 class="subtitle">my services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Web design of your choise </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>meaningful UI/UX and Prototypes</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="subtitle">My work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="https://res.cloudinary.com/dw8unnqdd/image/upload/v1700490043/22222_sjojuc.png">
+                        <div class="layer">
+                            <h3>NXT TRENDZ</h3>
+                            <p>Nxt Trendz is a online shopping website where we can find all types of dresses. </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://res.cloudinary.com/dw8unnqdd/image/upload/v1700490741/965_gsv4am.png">
+                        <div class="layer">
+                            <h3>Emoji Game</h3>
+                            <p>We should have to click on same emojis that will give the one score for correct emojis . If we mismatch emoji then the game ends. </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="https://res.cloudinary.com/dw8unnqdd/image/upload/v1700491235/456789_nechno.png">
+                        <div class="layer">
+                            <h3>Stop Watch</h3>
+                            <p>A stopwatch is a timepiece designed to measure the amount of time that elapses between its activation and deactivation.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">see more</a>
+
+            </div>
+        </div>
+
+        <!---contact------>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>bandiganesh0908@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>7093890560</p>
+                        <div class="social-icons">
+                            <a href=" "><i class="fa-brands fa-facebook"></i></a>
+                            <a href=" "><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://www.instagram.com/ganesh_varma07/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/ganesh-bandi-0a1726275/"> <i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="resume.pdf" download class="btn btn2">Download CV</a>
+
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your name" required>
+                            <input type="email" name="Email" placeholder="your email" required>
+                            <textarea name="message" rows="6" placeholder="your message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © ganesh_varma07</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbztSflia4db3vhEM_ThJSKBwxUFem2zzwKqt6dKiVbhEjiyrh4sQ4S7Uroz7WfIZHUExQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+
+
+</body>
+
+</html>
